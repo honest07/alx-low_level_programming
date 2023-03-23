@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdi.h>
 
 /**
  * print_to_98 - Entry point prints all natural numbers from n to 98.
