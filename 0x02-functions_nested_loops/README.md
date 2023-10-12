@@ -11,3 +11,5 @@ script that writes a functing that prints the 9 times thable starting with 0.
 script that writes a function that adds two integers and returns the result.
 script that writes a function that prints all natural numbers from n to 98, followed by a new line.
 script that writes a function that prints the n times table, starting with 0.
+Islower
+A function that checks for lowercsase character.

@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -5,35 +6,23 @@
  * @c: is the char to be checked
  * Return: 1 if char is lowercase, otherwise 0
  */
-int _islower(char c)
+int _islower(int c)
 {
-	if (c >= 'a' &&c <= 'z')
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	return ((c >= 'a' && c <= 'z') ? 1 : 0);
 }
+
 /**
- * _islower - checks character c
+ * main - Check point of code.
  *
- * Return: Always 0
+ * Return: Always 0.
  */
 int main(void)
 {
 	char character = 'c';
 
-	int result = _islower;
-
-	if (result == 1)
+	int output = _islower(character);
 	{
-		printf("%c is a lowercase letter\n", character);
-	}
-	else
-	{
-		printf("%c is not a lowercase letter\n", character);
+		printf("%d\n", output);
 	}
 	return (0);
 }
